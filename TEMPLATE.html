@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CDFT Viewer - __LABEL__</title>
+  <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; }
+    header { padding: 8px 12px; border-bottom: 1px solid #ddd; }
+    #controls { padding: 8px 12px; }
+    #cdft-viewer { width: 100%; height: 600px; position: relative; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>CDFT解析: __LABEL__</h2>
+    <a href="CDFT_VIEWALL.html">&larr; 一覧に戻る</a>
+  </header>
+  <div id="controls">
+    表示するプロット:
+    <select id="cube-selector"></select>
+  </div>
+  <div id="cdft-viewer"></div>
+
+  <script src="__APP_JS__"></script>
+</body>
+</html>
